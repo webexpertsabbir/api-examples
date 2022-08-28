@@ -12,6 +12,7 @@ const dispalyUser = users => {
     <h3>User Name: ${user.name.first} ${user.name.last}</h3>
     <p>Email: ${user.email}</p>
     <p>Gender: ${user.gender} Age: ${user.dob.age}</p>
+    <p>Nationaliti: ${user.location.state}</p>
     `;
     userContainer.appendChild(userDiv);
  }
